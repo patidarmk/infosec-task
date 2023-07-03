@@ -289,7 +289,11 @@ body::-webkit-scrollbar-thumb {
   font-size: var(--font-size-xm);
   font-weight: 400;
   padding: 0rem 1rem;
-  margin-bottom: 5rem;
+ 
+}
+
+.user-profile-container  {
+	margin-bottom:5rem;
 }
 
 .user-profile-container h5 {
