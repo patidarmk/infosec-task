@@ -220,7 +220,7 @@ body::-webkit-scrollbar-thumb {
 
 .form-tab > .active {
   font-weight: 700 !important;
-  border-bottom:2px solid black;
+  border-bottom:2px solid black !important;
 }
 
 .form-label {
@@ -450,9 +450,9 @@ body::-webkit-scrollbar-thumb {
     width: 9rem;
     height: 2.5rem;
     margin-right: 0.3rem !important;
-	border-top:none;
-	border-left:none;
-	border-right:none
+	border-top:none !important;
+	border-left:none !important;
+	border-right:none !important;
   }
 
   .form-tab > .nav-link:hover {
